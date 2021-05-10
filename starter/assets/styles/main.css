@@ -1,0 +1,72 @@
+/*
+- bgcolor : #fff
+- bglight : #F5F9F4
+- textDark : #0E0C34
+- textlight : #82818A
+- gray : #DEDEDE
+- primary : #A2DE96
+*/
+
+/**General Styles**/
+*{
+    padding: 0;
+    margin: 0;
+
+}
+html{
+    direction: rtl;
+}
+body{
+    font-family: 'Almarai', sans-serif;
+    color: #0E0C34;
+    font-size: 100%;
+    line-height: 1.5em;
+}
+button{
+    font-family: inherit;
+}
+a{
+    color: #82818A;
+    text-decoration: none;
+}
+a:hover{
+    color: #A2DE96;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+/** utilites **/
+.btn{
+    background-color: #A2DE96;
+    color: #0E0C34;
+    padding: 0.75rem 2rem;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.btn:hover{
+    background-color: #8fc584;
+    color: #fff;
+}
+.btn-small{
+    background-color: #dedede;
+    font-size: 0.75rem;
+    padding: 0.5rem 2rem;
+}
+
+.btn-small.active {
+    background-color: #a2de96;
+    color: #fff;
+}
+
+.container{
+    background-color: aquamarine;
+    width: 960px;
+    margin: 0 auto;
+}
