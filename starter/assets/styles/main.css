@@ -93,6 +93,9 @@ ul{
 
 
 /* ***header *** */
+section{
+    padding: 4.5rem 0;
+}
 header {
     padding: 1rem;
 }
@@ -118,4 +121,27 @@ header .navbar li {
 }
 header .navbar li .active{
     color: #a2de96;
+}
+
+/* *** head *** */
+.head-img {
+    width: 80%;
+    margin-right: 20%;
+}
+.head-info{
+    padding-top: 5rem;
+}
+.head-info h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.head-info .sub-header{
+    font-size: 1.5rem;
+    font-weight: bold;
+    columns: #a2de96;
+}
+.head-info .sub-text{
+    margin: 1.5rem;
+    padding-left: 1.5rem;
 }
