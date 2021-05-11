@@ -168,3 +168,62 @@ header .navbar li .active{
 #advanteges .col-1-3 p {
     color: #82818a;
 }
+
+/* *** menu *** */
+#menu h2 {
+    margin-bottom: 1rem;
+}
+.menu-filter {
+    margin-bottom: 2rem;
+}
+.menu-filter .filters {
+    display: inline-block;
+    margin-top: 0.75rem;
+}
+.menu-filter a {
+    float: left;
+}
+ .menu-products .product {
+    margin: 0.5rem;
+    border: 2px dashed #a2de96;
+    border-radius: 40px;
+    overflow: hidden;
+    height: 15rem;
+    position: relative;
+}
+.menu-products .product img {
+    width: 100%;
+    position: absolute;
+}
+
+.produc-info {
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 1rem 1.5rem;
+}
+.produc-info h3 {
+    font-size: 1rem;
+}
+.produc-info span {
+    color: #a2de96;
+    margin-top: 0.5rem;
+    display: inline-block;
+}
+.product-btn {
+    background-color: #a2de96;
+    border: none;
+    padding: 0.2rem 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 5rem;
+    color: #fff;
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+    cursor: pointer;
+}
+.product-btn:hover {
+    background-color: #8bbd81;
+}
