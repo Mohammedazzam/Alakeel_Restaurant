@@ -227,3 +227,53 @@ header .navbar li .active{
 .product-btn:hover {
     background-color: #8bbd81;
 }
+
+/* *** cta *** */
+#cta .book{
+    background-color: antiquewhite;
+    border-radius: 40px;
+    background-image: url(../images/reservation.png);
+    background-size: cover;
+    background-position: center center; 
+}
+#cta .book-box {
+    background-color: rgba(123, 163, 115, 0.9);
+    width: 50%;
+    border-radius: 40px;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+#cta .book-box h2 {
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+#cta .book-box .form-group {
+   display: inline-block;
+   margin-bottom: 0 0.75rem; 
+   font-size: 0.75rem;
+}
+
+#cta .book-box .form-group label {
+    display: block;
+    text-align: right;
+}
+#cta .book-box .form-group input ,
+#cta .book-box .form-group select  {
+    border: 1.5px dashed #fff;
+    background-color:transparent ;
+    color: #fff;
+    border-radius: 3px;
+}
+#cta .book-box .form-group select  {
+    padding: 2px;
+}
+#cta .book-box .form-group option {
+    color: #0e0e0e;
+}
+#cta .book-box form button {
+    background-color: #f5f5f5;
+    display: inline-block;
+    margin-top: 1.5rem;
+}
