@@ -251,7 +251,7 @@ header .navbar li .active{
 
 #cta .book-box .form-group {
    display: inline-block;
-   margin-bottom: 0 0.75rem; 
+   margin: 0 0.75rem; 
    font-size: 0.75rem;
 }
 
@@ -276,4 +276,55 @@ header .navbar li .active{
     background-color: #f5f5f5;
     display: inline-block;
     margin-top: 1.5rem;
+}
+/* *** Reviews *** */
+#reviews {
+    background-color: #f5f5f5;
+}
+#reviews h2 {
+    text-align: center;
+    margin-bottom: 4 .5rem;
+}
+#reviews .review {
+    background-color: #fff;
+    margin: 1rem;
+    padding: 1rem;
+}
+#reviews .review .info {
+    margin-bottom: 1rem;
+}
+#reviews .review .info img {
+    width: 3rem;
+    border-radius: 50px;
+    display: inline-block;
+}
+#reviews .review .info .user-data {
+    display: inline-block;
+    margin-right: 1rem;
+}
+#reviews .review p {
+    color: #828282;
+}
+#reviews .review .stars {
+    text-align: left;
+    margin-top: 1rem;
+}
+#reviews .review .stats img {
+    width: 1.5rem;
+}
+#reviews .three-dots {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+#reviews .three-dots span {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50px;
+    background-color: #828282;
+    cursor: pointer;
+    margin: 0 0.25rem;
+}
+#reviews .three-dots span.active {
+    background-color: #a2de96;
 }
