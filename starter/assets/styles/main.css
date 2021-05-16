@@ -328,3 +328,28 @@ header .navbar li .active{
 #reviews .three-dots span.active {
     background-color: #a2de96;
 }
+/* *** contact *** */
+#contact .contact-box {
+    background-color: #f5f5f5;
+    width: 60%;
+    margin:0 auto;
+    border-radius: 30px;
+    border:2px dashed #a2de96;
+    padding: 2rem;
+    position: relative;
+}
+#contact .contact-info {
+    display: inline-block;
+    width: 60%;
+}
+#contact .contact-cta {
+    display: inline-block;
+    width: 30%;
+    position: absolute;
+    top:40%;
+    left: 0;
+}
+#contact .contact-info p {
+    margin-top: 1rem;
+    color: #828282;
+}
